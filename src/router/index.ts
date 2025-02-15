@@ -23,6 +23,8 @@ const router = createRouter({
 export default router
 
 /** 
+~~ Import router to page ~~
+import { RouterLink, RouterView } from 'vue-router'
 
 ~~ To display the router nav ~~
 <header>
