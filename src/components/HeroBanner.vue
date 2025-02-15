@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1 class="hero-text">Baking It Right</h1>
+    <img src="./icons/cookie.png" alt="" />
   </div>
 </template>
 

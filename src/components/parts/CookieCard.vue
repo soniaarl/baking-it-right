@@ -27,7 +27,9 @@ const props = defineProps<CookieProps>()
 }
 
 img {
-  width: 140px;
+  max-width: 140px;
   margin-right: 18px;
+  width: 40%;
+  height: fit-content;
 }
 </style>
