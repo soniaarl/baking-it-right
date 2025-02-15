@@ -1,7 +1,6 @@
 <template>
   <div class="parallax">
     <h1 class="hero-text">Baking It Right</h1>
-    <img class="cookie" src="../../icon-images/cookie-image.png" alt="" />
   </div>
 </template>
 
@@ -38,10 +37,6 @@ div {
   top: 40%;
   transform: translateX(-50%);
   width: 100%;
-}
-
-.cookie {
-  width: 69px;
 }
 
 @media (min-width: 800px) {
