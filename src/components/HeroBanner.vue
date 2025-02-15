@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="parallax">
     <h1 class="hero-text">Baking It Right</h1>
-    <img src="./icons/cookie.png" alt="" />
+    <img class="cookie" src="../../icon-images/cookie-image.png" alt="" />
   </div>
 </template>
 
@@ -12,6 +12,19 @@ div {
   height: 660px;
   position: relative;
   margin-top: -70px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('../mobile-background.png');
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .hero-text {
@@ -25,6 +38,10 @@ div {
   top: 40%;
   transform: translateX(-50%);
   width: 100%;
+}
+
+.cookie {
+  width: 69px;
 }
 
 @media (min-width: 800px) {
