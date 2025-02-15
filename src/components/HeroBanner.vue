@@ -15,13 +15,20 @@ div {
 
 .hero-text {
   text-transform: uppercase;
-  font-size: 96px;
+  font-size: 64px;
   color: white;
   text-shadow: 3px 4px 4px #00000025;
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 40%;
   transform: translateX(-50%);
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .hero-text {
+    font-size: 96px;
+  }
 }
 </style>

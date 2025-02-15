@@ -15,9 +15,6 @@
   top: 0;
   z-index: 99;
 }
-a {
-  text-decoration: none;
-}
 ul {
   display: flex;
   list-style: none;
@@ -30,11 +27,11 @@ ul {
     #ffd3eea6 90%,
     #ffd3ee28 100%
   ); */
-  padding: 15px 50px 20px 0px;
+  padding: 15px 25px 20px 0px;
 }
 
-a,
-li {
+a {
+  text-decoration: none;
   padding-left: 28px;
   font-size: 24px;
   font-weight: 700;

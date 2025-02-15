@@ -1,8 +1,10 @@
 <template>
   <div class="CookieCard">
     <img :src="props.image" :alt="props.alt" />
-    <h3>{{ props.name }}</h3>
-    <p>{{ props.description }}</p>
+    <div class="copy">
+      <h3>{{ props.name }}</h3>
+      <p>{{ props.description }}</p>
+    </div>
   </div>
 </template>
 
@@ -18,3 +20,14 @@ interface CookieProps {
 
 const props = defineProps<CookieProps>()
 </script>
+
+<style scoped>
+.CookieCard {
+  display: flex;
+}
+
+img {
+  width: 140px;
+  margin-right: 18px;
+}
+</style>

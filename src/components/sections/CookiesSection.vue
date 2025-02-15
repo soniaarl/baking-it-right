@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <h2>COOKIES</h2>
-    <h2>COOKIES</h2> -->
+    <h2 class="text-stroke">COOKIES</h2>
+    <!-- <h2>COOKIES</h2> -->
 
     <ul>
       <li v-for="cookie in cookies" :key="cookie.name">
@@ -60,7 +60,18 @@ const cookies = [
 </script>
 
 <style scoped>
+h2 {
+  color: white;
+  text-shadow: 3px 4px 4px #00000035;
+  margin: 50px auto;
+  text-align: center;
+}
 ul {
   list-style: none;
+  padding: 0 15px;
+}
+
+li {
+  margin-bottom: 33px;
 }
 </style>
