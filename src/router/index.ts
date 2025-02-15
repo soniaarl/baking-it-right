@@ -17,12 +17,23 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
-    {
-      path: '/test',
-      name: 'test',
-      component: () => import('@/views/TestView.vue'),
-    },
   ],
 })
 
 export default router
+
+/** 
+
+~~ To display the router nav ~~
+<header>
+  <nav>
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/about">About</RouterLink>
+    <RouterLink to="/test">Test</RouterLink>
+  </nav>
+</header>
+
+~~ Displays the routed pages ~~
+<RouterView />
+
+*/
