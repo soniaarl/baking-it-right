@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import PageNav from './components/PageNav.vue'
 import HeroBanner from './components/HeroBanner.vue'
+import CookiesSection from './components/sections/CookiesSection.vue'
 </script>
 
 <template>
@@ -9,12 +10,14 @@ import HeroBanner from './components/HeroBanner.vue'
     <HeroBanner />
 
     <div class="box"></div>
-    <h2 class="cookies" id="cookies">Cookies</h2>
+    <section class="cookies" id="cookies">
+      <CookiesSection />
+    </section>
   </div>
 </template>
 
 <style scoped>
 .box {
-  height: 3000px;
+  /* height: 3000px; */
 }
 </style>
