@@ -76,3 +76,7 @@ section {
 .wrap {
   padding: 0 20px;
 }
+
+.shadow {
+  text-shadow: 3px 4px 4px #00000046;
+}

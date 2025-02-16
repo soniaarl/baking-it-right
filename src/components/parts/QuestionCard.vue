@@ -29,6 +29,7 @@ img {
 
 .qa {
   display: flex;
+  margin-bottom: 30px;
 }
 
 h3 {
