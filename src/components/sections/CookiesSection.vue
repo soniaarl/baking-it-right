@@ -63,7 +63,7 @@ const cookies = [
 h2 {
   color: white;
   text-shadow: 3px 4px 4px #00000035;
-  margin: 50px auto;
+  margin: 0px auto 50px auto;
   text-align: center;
 }
 ul {
@@ -71,7 +71,7 @@ ul {
   padding: 0 15px;
 }
 
-li {
+li:not(:last-child) {
   margin-bottom: 33px;
 }
 </style>

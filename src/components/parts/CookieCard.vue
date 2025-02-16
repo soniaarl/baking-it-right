@@ -40,4 +40,8 @@ img {
   width: 40%;
   height: fit-content;
 }
+
+.copy {
+  margin: auto;
+}
 </style>

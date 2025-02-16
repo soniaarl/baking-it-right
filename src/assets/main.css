@@ -10,8 +10,14 @@
   font-weight: 100 900;
 }
 
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url('@/assets/fonts/LuckiestGuy-Regular.ttf') format('truetype-variations');
+}
+
 body {
   background-color: #fffcec;
+  line-height: normal;
 }
 
 html {
@@ -26,6 +32,8 @@ h3 {
 
 h2 {
   font-size: 54px;
+  color: #fff49d;
+  -webkit-text-stroke: 0.8px black;
 }
 
 .text-stroke {
@@ -36,7 +44,6 @@ h3 {
   color: #fff49d;
   -webkit-text-stroke: 0.8px black;
   font-size: 32px;
-  position: relative;
   text-shadow: 0px 4px 4px #00000035;
 }
 
@@ -47,4 +54,12 @@ li {
   font-weight: 400;
   font-size: 18px;
   color: #112539;
+}
+
+span.luckiest {
+  font-family: 'Luckiest Guy', sans-serif;
+}
+
+section {
+  margin: 50px 0;
 }
