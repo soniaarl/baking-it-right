@@ -1,6 +1,6 @@
 <template>
   <div class="qa">
-    <img src="../../../icon-images/milk.png" alt="Glass of milk" />
+    <img src="/icon-images/milk.png" alt="Glass of milk" />
     <div class="copy">
       <h3>{{ question }}</h3>
       <p>{{ answer }}</p>

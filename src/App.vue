@@ -16,7 +16,7 @@
     <section><ReadySection /></section>
     <footer class="wrap">
       <div class="socials">
-        <img class="instagram" src="../icon-images/instagram.png" alt="Instagram Logo" />
+        <img class="instagram" src="/icon-images/instagram.png" alt="Instagram Logo" />
         <a href="https://www.instagram.com/bakingitright.yvr/">@bakingitirght.yvr</a>
       </div>
     </footer>

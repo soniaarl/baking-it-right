@@ -3,12 +3,12 @@
     <SectionTitle title="prices" colour="blue" />
     <div class="half-dozen">
       <h2>1/2 dozen</h2>
-      <img src="../../../cookies-images/half-dozen.png" alt="Half a dozen cookies" />
+      <img src="/cookies-images/half-dozen.png" alt="Half a dozen cookies" />
       <h2><span class="luckiest">$</span>21</h2>
     </div>
     <div class="one-dozen">
       <h2>1 dozen</h2>
-      <img src="../../../cookies-images/one-dozen.png" alt="One dozen cookies" />
+      <img src="/cookies-images/one-dozen.png" alt="One dozen cookies" />
       <h2><span class="luckiest">$</span>36</h2>
     </div>
   </div>

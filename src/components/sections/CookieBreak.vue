@@ -2,26 +2,10 @@
   <div class="cookie-break">
     <h2 class="break">Cookie Break..</h2>
     <h2 class="title">I have some questions</h2>
-    <img
-      class="cookie cookie-01"
-      src="../../../icon-images/cookie-image.png"
-      alt="Chocolate chip cookie"
-    />
-    <img
-      class="cookie cookie-02"
-      src="../../../icon-images/cookie-image.png"
-      alt="Chocolate chip cookie"
-    />
-    <img
-      class="cookie cookie-03"
-      src="../../../icon-images/cookie-image.png"
-      alt="Chocolate chip cookie"
-    />
-    <img
-      class="cookie cookie-04"
-      src="../../../icon-images/cookie-image.png"
-      alt="Chocolate chip cookie"
-    />
+    <img class="cookie cookie-01" src="/icon-images/cookie-image.png" alt="Chocolate chip cookie" />
+    <img class="cookie cookie-02" src="/icon-images/cookie-image.png" alt="Chocolate chip cookie" />
+    <img class="cookie cookie-03" src="/icon-images/cookie-image.png" alt="Chocolate chip cookie" />
+    <img class="cookie cookie-04" src="/icon-images/cookie-image.png" alt="Chocolate chip cookie" />
   </div>
 </template>
 
