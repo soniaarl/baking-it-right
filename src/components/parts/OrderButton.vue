@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#">Order Now</a>
+    <a href="https://form.jotform.com/250441877187061" target="_blank">Order Now</a>
   </div>
 </template>
 

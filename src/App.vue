@@ -40,6 +40,10 @@ import ReadySection from './components/sections/ReadySection.vue'
   height: 30px;
 }
 
+section.faq {
+  margin-top: 0;
+}
+
 .instagram {
   width: 48px;
   height: 48px;

@@ -31,7 +31,7 @@ h2 {
 }
 .luckiest {
   position: absolute;
-  top: -6px;
+  /* top: -6px; */
   left: -27px;
 }
 
