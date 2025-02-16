@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SectionTitle title="Prices" colour="blue" />
+    <SectionTitle title="prices" colour="blue" />
     <div class="half-dozen">
       <h2>1/2 dozen</h2>
       <img src="../../../cookies-images/half-dozen.png" alt="Half a dozen cookies" />

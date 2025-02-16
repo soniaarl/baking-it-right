@@ -1,6 +1,6 @@
 <template>
   <div :class="colour">
-    <h1>{{ title }}</h1>
+    <h2>{{ title }}</h2>
   </div>
 </template>
 
@@ -24,15 +24,15 @@ div {
   margin-bottom: 50px;
 }
 
-h1 {
+h2 {
   color: white;
   font-size: 54px;
-  text-transform: uppercase;
-  text-shadow: 3px 4px 4px #00000035;
+  text-shadow: 3px 4px 4px #0000004f;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-text-stroke: 0;
 }
 
 .blue {
