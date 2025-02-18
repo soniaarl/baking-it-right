@@ -80,3 +80,9 @@ section {
 .shadow {
   text-shadow: 3px 4px 4px #00000046;
 }
+
+@media (min-width: 1000px) {
+  section {
+    margin: 100px 0;
+  }
+}

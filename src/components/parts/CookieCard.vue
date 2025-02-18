@@ -42,6 +42,14 @@ img {
 }
 
 .copy {
-  margin: auto;
+  margin: auto 0;
+}
+
+@media (min-width: 950px) {
+  .CookieCard {
+    display: block;
+    text-align: center;
+    max-width: 265px;
+  }
 }
 </style>

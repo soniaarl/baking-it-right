@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h2 class="text-stroke">COOKIES</h2>
-    <!-- <h2>COOKIES</h2> -->
+  <div class="container">
+    <h2 class="cookie01 text-stroke">COOKIES</h2>
+    <h2 class="cookie02">COOKIES</h2>
 
     <ul>
       <li v-for="cookie in cookies" :key="cookie.name">
@@ -60,6 +60,10 @@ const cookies = [
 </script>
 
 <style scoped>
+.cookie02 {
+  display: none;
+}
+
 h2 {
   color: white;
   text-shadow: 3px 4px 4px #00000035;
@@ -73,5 +77,64 @@ ul {
 
 li:not(:last-child) {
   margin-bottom: 33px;
+}
+
+@media (min-width: 600px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    width: 48%;
+  }
+}
+
+@media (min-width: 950px) {
+  ul {
+    max-width: 990px;
+    margin: auto;
+    justify-content: center;
+    column-gap: 30px;
+  }
+  ul li {
+    width: auto;
+    margin-bottom: 55px !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    position: relative;
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  .cookie01,
+  .cookie02 {
+    position: absolute;
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .cookie01 {
+    transform: rotate(-90deg) translate(25%, -50%);
+    top: 50%;
+    left: 0;
+  }
+
+  .cookie02 {
+    display: block;
+    transform: rotate(90deg) translate(-25%, -50%);
+    top: 50%;
+    right: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  ul {
+    justify-content: space-between;
+  }
 }
 </style>
