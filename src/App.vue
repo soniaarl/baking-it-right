@@ -61,4 +61,12 @@ footer {
   padding-top: 20px;
   margin-bottom: 80px;
 }
+
+@media (min-width: 1000px) {
+  .prices,
+  .order,
+  .about {
+    margin: 0;
+  }
+}
 </style>

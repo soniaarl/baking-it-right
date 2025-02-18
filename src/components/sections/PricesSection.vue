@@ -69,6 +69,7 @@ h2 {
   .SectionTitle {
     width: 50%;
     height: 585px;
+    margin: 0;
   }
 
   .cookies {
@@ -77,14 +78,14 @@ h2 {
   }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 2000px) {
   .cookies {
     justify-content: left;
     padding-left: 150px;
   }
 
-  .SectionTitle /deep/ h2 {
-    left: 70%;
+  .SectionTitle:deep(h2) {
+    left: 60%;
   }
 }
 </style>
