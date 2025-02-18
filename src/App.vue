@@ -59,7 +59,8 @@ section.faq {
 
 footer {
   padding-top: 20px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
+  max-width: 1500px;
 }
 
 @media (min-width: 1000px) {

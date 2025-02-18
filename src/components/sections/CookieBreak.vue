@@ -38,6 +38,15 @@
   z-index: 2;
 }
 
+@media (min-width: 700px) {
+  .title {
+    text-align: left;
+    padding-left: 20px;
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+
 .break {
   top: 30%;
   left: 15%;

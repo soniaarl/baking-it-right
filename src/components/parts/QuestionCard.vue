@@ -30,6 +30,7 @@ img {
 .qa {
   display: flex;
   margin-bottom: 30px;
+  max-width: 800px;
 }
 
 h3 {

@@ -17,4 +17,9 @@ h2 {
 p {
   margin: 5px 0 20px 0;
 }
+
+.wrap {
+  max-width: 1500px;
+  margin: auto;
+}
 </style>

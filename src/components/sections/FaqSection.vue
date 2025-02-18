@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="faq wrap" v-for="question in questions" :key="question.question">
       <QuestionCard :question="question.question" :answer="question.answer" />
     </div>
@@ -29,7 +29,15 @@ const questions = [
   },
   {
     question: 'what if i have allergies?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    answer:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit',
   },
 ]
 </script>
+
+<style scoped>
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+</style>
