@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <SectionTitle title="prices" colour="blue" />
-    <div class="half-dozen">
-      <h2>1/2 dozen</h2>
-      <img src="/cookies-images/half-dozen.png" alt="Half a dozen cookies" />
-      <h2><span class="luckiest">$</span>21</h2>
-    </div>
-    <div class="one-dozen">
-      <h2>1 dozen</h2>
-      <img src="/cookies-images/one-dozen.png" alt="One dozen cookies" />
-      <h2><span class="luckiest">$</span>36</h2>
+  <div class="container">
+    <SectionTitle class="SectionTitle" title="prices" colour="blue" />
+    <div class="cookies">
+      <div class="half-dozen">
+        <h2>1/2 dozen</h2>
+        <img src="/cookies-images/half-dozen.png" alt="Half a dozen cookies" />
+        <h2><span class="luckiest">$</span>21</h2>
+      </div>
+      <div class="one-dozen">
+        <h2>1 dozen</h2>
+        <img src="/cookies-images/one-dozen.png" alt="One dozen cookies" />
+        <h2><span class="luckiest">$</span>36</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -49,5 +51,40 @@ h2 {
   width: 245px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 580px) {
+  .cookies {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+  }
+
+  .SectionTitle {
+    width: 50%;
+    height: 585px;
+  }
+
+  .cookies {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1700px) {
+  .cookies {
+    justify-content: left;
+    padding-left: 150px;
+  }
+
+  .SectionTitle /deep/ h2 {
+    left: 70%;
+  }
 }
 </style>

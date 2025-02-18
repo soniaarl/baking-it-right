@@ -82,7 +82,6 @@ img {
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
-    opacity: 1;
   }
   10% {
     transform: translate(-1px, -2px) rotate(-1deg);
@@ -98,6 +97,7 @@ img {
   }
   50% {
     transform: translate(-1px, 2px) rotate(-1deg);
+    opacity: 1;
   }
   60% {
     transform: translate(-3px, 1px) rotate(0deg);
