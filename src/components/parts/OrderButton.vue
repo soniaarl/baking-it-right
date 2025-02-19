@@ -5,20 +5,20 @@
 </template>
 
 <style scoped>
-div {
+a {
+  display: block;
   background-color: #fff49d;
   width: 200px;
   height: 55px;
   text-align: center;
-  position: relative;
   border-radius: 5px;
   border: 1px solid #112539;
+  line-height: 55px;
+  transition: ease 0.2s;
 }
 
-a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+a:hover {
+  box-shadow: 2px 3px 3px #00000035;
+  transform: scale(1.005);
 }
 </style>

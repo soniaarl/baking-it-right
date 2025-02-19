@@ -65,6 +65,16 @@ a {
   text-decoration: none;
 }
 
+a.link {
+  color: #0074c7;
+  font-weight: 600;
+  transition: ease 0.2s;
+}
+
+a.link:hover {
+  color: #004374;
+}
+
 span.luckiest {
   font-family: 'Luckiest Guy', sans-serif;
 }

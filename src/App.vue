@@ -17,7 +17,9 @@
     <footer class="wrap">
       <div class="socials">
         <img class="instagram" src="/icon-images/instagram.png" alt="Instagram Logo" />
-        <a href="https://www.instagram.com/bakingitright.yvr/">@bakingitirght.yvr</a>
+        <a class="instagram-link" href="https://www.instagram.com/bakingitright.yvr/"
+          >@bakingitirght.yvr</a
+        >
       </div>
     </footer>
   </div>
@@ -56,6 +58,12 @@ section.faq {
 .instagram {
   width: 48px;
   height: 48px;
+}
+a.instagram-link {
+  transition: ease 0.2s;
+}
+a.instagram-link:hover {
+  text-shadow: 0px 4px 4px #00000035;
 }
 
 .socials {

@@ -12,25 +12,24 @@ import QuestionCard from '../parts/QuestionCard.vue'
 const questions = [
   {
     question: 'What do the cookies taste like?',
-    answer: 'Delicious',
+    answer:
+      'These cookies are crisp on the edges, chewy on the inside, and full of flavour. All our cookies made with brown butter and topped with flaky salt to give it depth and balance',
   },
   {
-    question: 'Can I mix and match?',
+    question: 'Can I pick multiple flavours?',
     answer: 'Yes, you can pick up to 2 flavours for half a dozen and up to 4 flavours for a dozen.',
   },
 
   {
-    question: 'how quickly can i get my cookies?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    question: 'do you deliver?',
+    answer:
+      'At the moment, I am mainly taking pickup orders with the exception of some deliveries (at an extra charge) in Burnaby and Richmond. However, delivery is not guaranteed and will have to be discussed/coordinated during the ordering process.',
   },
-  {
-    question: 'do you take custom orders?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
+
   {
     question: 'what if i have allergies?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit',
+      'Unfortunately, I cannot accommodate dietary restrictions nor guarantee that my cookies are allergen free. Here are the base ingredients: flour, brown sugar, white sugar, butter, eggs, milk, salt, baking powder, and baking soda.',
   },
 ]
 </script>

@@ -1,7 +1,10 @@
 <template>
   <div class="wrap">
     <h2 class="shadow">Ready to order?</h2>
-    <p>Please fill out the order form and I will get back to you as soon as I can!</p>
+    <p>
+      If you have more questions or would like to place an order, please fill out the order form and
+      I will get back to you as soon as I can!
+    </p>
     <OrderButton />
   </div>
 </template>
@@ -17,6 +20,7 @@ h2 {
 }
 p {
   margin: 5px 0 25px 0;
+  max-width: 700px;
 }
 
 .wrap {
