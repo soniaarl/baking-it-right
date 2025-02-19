@@ -91,6 +91,12 @@ li:not(:last-child) {
   }
 }
 
+@media (min-width: 800px) {
+  h2 {
+    font-size: 120px;
+  }
+}
+
 @media (min-width: 950px) {
   ul {
     max-width: 990px;
@@ -104,7 +110,7 @@ li:not(:last-child) {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1160px) {
   .container {
     position: relative;
     max-width: 1500px;
