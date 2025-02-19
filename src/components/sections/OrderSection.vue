@@ -6,7 +6,7 @@
       <ul>
         <li>No custom flavours</li>
         <li>Minimum order of 6 cookies</li>
-        <li>At one week notice</li>
+        <li>At least one week notice required</li>
       </ul>
 
       <p>
