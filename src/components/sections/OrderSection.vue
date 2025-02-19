@@ -45,7 +45,7 @@ p {
     width: 50%;
     margin: auto;
     padding: 0 30px;
-    max-width: 600px;
+    max-width: 500px;
   }
 }
 
@@ -55,10 +55,10 @@ p {
     padding: 0 !important;
   }
 
-  .SectionTitle:deep(h2) {
+  /* .SectionTitle:deep(h2) {
     right: 60%;
     left: inherit;
     transform: translate(50%, -50%);
-  }
+  } */
 }
 </style>

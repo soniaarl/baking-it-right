@@ -37,7 +37,22 @@ const questions = [
 
 <style scoped>
 .container {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: auto;
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .wrap {
+    padding: 20px;
+  }
+  .container {
+    max-width: 1500px;
+  }
 }
 </style>

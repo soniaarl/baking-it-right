@@ -13,13 +13,27 @@ import OrderButton from '../parts/OrderButton.vue'
 <style scoped>
 h2 {
   color: white;
+  margin-bottom: 10px;
 }
 p {
-  margin: 5px 0 20px 0;
+  margin: 5px 0 25px 0;
 }
 
 .wrap {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: auto;
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .wrap {
+    padding: 20px;
+    max-width: 1500px;
+  }
 }
 </style>

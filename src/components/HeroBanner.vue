@@ -15,7 +15,7 @@ div {
 
 .parallax {
   /* The image used */
-  background-image: url('../mobile-background.png');
+  background-image: url('/mobile-background.png');
 
   /* Set a specific height */
   min-height: 600px;
@@ -24,6 +24,14 @@ div {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100vw;
+}
+
+@media (min-width: 600px) {
+  .parallax {
+    background-image: url('/desktop-background.png');
+    background-repeat: repeat;
+    background-size: contain;
+  }
 }
 
 .hero-text {

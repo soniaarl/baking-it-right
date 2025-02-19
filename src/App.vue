@@ -13,7 +13,7 @@
     <CookieBreak />
     <div id="faq"></div>
     <section class="faq"><FaqSection /></section>
-    <section><ReadySection /></section>
+    <section class="ReadySection"><ReadySection /></section>
     <footer class="wrap">
       <div class="socials">
         <img class="instagram" src="/icon-images/instagram.png" alt="Instagram Logo" />
@@ -40,6 +40,15 @@ import ReadySection from './components/sections/ReadySection.vue'
   height: 30px;
 }
 
+@media (min-width: 1500px) {
+  .faq {
+    margin-bottom: 0px;
+  }
+  .ReadySection {
+    margin-top: 0;
+  }
+}
+
 section.faq {
   margin-top: 0;
 }
@@ -60,7 +69,13 @@ section.faq {
 footer {
   padding-top: 20px;
   margin: 0 auto 80px auto;
-  max-width: 1500px;
+  max-width: 1000px;
+}
+
+@media (min-width: 600px) {
+  footer {
+    padding-left: 50px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -68,6 +83,13 @@ footer {
   .order,
   .about {
     margin: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  footer {
+    max-width: 1500px;
+    padding-left: 20px;
   }
 }
 </style>

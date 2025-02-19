@@ -84,8 +84,8 @@ h2 {
     padding-left: 150px;
   }
 
-  .SectionTitle:deep(h2) {
+  /* .SectionTitle:deep(h2) {
     left: 60%;
-  }
+  } */
 }
 </style>

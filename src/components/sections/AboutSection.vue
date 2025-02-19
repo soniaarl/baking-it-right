@@ -20,6 +20,11 @@ p {
   text-align: center;
 }
 
+.wrap {
+  max-width: 700px;
+  margin: auto;
+}
+
 @media (min-width: 1000px) {
   .container {
     display: flex;
@@ -33,7 +38,7 @@ p {
 
   .wrap {
     width: 50%;
-    margin: auto;
+    max-width: 500px;
   }
 }
 
@@ -42,9 +47,9 @@ p {
     justify-content: left;
     padding-left: 150px;
   }
-
+  /* 
   .SectionTitle:deep(h2) {
     left: 60%;
-  }
+  } */
 }
 </style>
