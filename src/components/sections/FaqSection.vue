@@ -3,6 +3,18 @@
     <div class="faq wrap" v-for="question in questions" :key="question.question">
       <QuestionCard :question="question.question" :answer="question.answer" />
     </div>
+
+    <!-- <SanityFetcher query="*[_type == 'faq']">
+      <template v-slot="{ data, loading, error }">
+        <div v-if="loading">Loading...</div>
+        <div v-else-if="error">Error: {{ error.message }}</div>
+        <div v-else>
+          <div class="faq wrap" v-for="faq in data" :key="faq._id">
+            <QuestionCard :question="faq.question" :answer="faq.answer[0].children[0].text" />
+          </div>
+        </div>
+      </template>
+    </SanityFetcher> -->
   </div>
 </template>
 

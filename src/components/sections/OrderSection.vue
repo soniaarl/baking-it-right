@@ -6,7 +6,7 @@
       <ul>
         <li>No custom flavours</li>
         <li>Minimum order of 6 cookies</li>
-        <li>At least one week notice required</li>
+        <li>One week notice preferred</li>
       </ul>
 
       <p>
@@ -17,7 +17,7 @@
       <OrderButton class="OrderButton" />
 
       <p>
-        Still have questions? Check out the <a href="#faq" class="link">FAQ section</a> more
+        Still have questions? Check out the <a href="#faq" class="link">FAQ section</a> for more
         details.
       </p>
     </div>
