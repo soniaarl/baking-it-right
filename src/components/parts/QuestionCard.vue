@@ -36,6 +36,7 @@ img {
 h3 {
   line-height: 1.1em;
   margin-bottom: 5px;
+  text-transform: lowercase;
 }
 
 .copy {
