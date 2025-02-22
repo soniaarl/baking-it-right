@@ -4,7 +4,7 @@
       <QuestionCard :question="question.question" :answer="question.answer" />
     </div>
 
-    <!-- <SanityFetcher query="*[_type == 'faq']">
+    <SanityFetcher query="*[_type == 'faq']">
       <template v-slot="{ data, loading, error }">
         <div v-if="loading">Loading...</div>
         <div v-else-if="error">Error: {{ error.message }}</div>
@@ -14,7 +14,7 @@
           </div>
         </div>
       </template>
-    </SanityFetcher> -->
+    </SanityFetcher>
   </div>
 </template>
 
