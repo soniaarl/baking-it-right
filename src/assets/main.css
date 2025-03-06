@@ -45,6 +45,9 @@ h3 {
   -webkit-text-stroke: 0.8px black;
   font-size: 32px;
   text-shadow: 0px 4px 4px #00000035;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+  text-transform: lowercase;
 }
 
 a,
@@ -55,6 +58,11 @@ li {
   font-weight: 400;
   font-size: 18px;
   color: #112539;
+  line-height: 1.5em;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 ul {
@@ -89,6 +97,10 @@ section {
 
 .shadow {
   text-shadow: 3px 4px 4px #00000046;
+}
+
+.white {
+  color: white;
 }
 
 @media (min-width: 1000px) {

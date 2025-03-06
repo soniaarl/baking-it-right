@@ -3,9 +3,16 @@
     <SectionTitle class="SectionTitle" title="about" colour="yellow" />
     <div class="wrap">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris
+        Ever since I was a kid, baking has played a huge role in my life. It was my first hobby, a
+        way of satisfying my sweet tooth, and a stress reliever all in one. It was so ingrained in
+        my life that it eventually became one of my love languages. One of the best feelings is
+        seeing someone's face light up when they're eating something you've baked.
+      </p>
+      <p>
+        Baking It Right is a way for me to share that joy with others in the form of a cookie.
+        Whether you're feeling adventurous or just craving something sweet, I've got you covered.
+        These cookies are crispy, chewy, salty, and not too sweet. They're everything you'd want in
+        a cookie, without being over the top.
       </p>
     </div>
   </div>
@@ -17,7 +24,7 @@ import SectionTitle from '../parts/SectionTitle.vue'
 
 <style scoped>
 p {
-  text-align: center;
+  margin-bottom: 15px;
 }
 
 .wrap {

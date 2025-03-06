@@ -10,6 +10,7 @@
           :alt="cookie.alt"
           :name="cookie.name"
           :description="cookie.description"
+          :coming="cookie.coming"
         />
       </li>
     </ul>
@@ -55,6 +56,7 @@ const cookies = [
     alt: 'Peanut butter miso cookie',
     name: 'peanut butter miso',
     description: 'a twist on a classic makes this cookie a perfect balance of salty and sweet',
+    coming: true,
   },
 ]
 </script>
