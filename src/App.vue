@@ -45,12 +45,23 @@ import ReadySection from './components/sections/ReadySection.vue'
   height: 30px;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) {
   .faq {
     margin-bottom: 0px;
   }
   .ReadySection {
     margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .faq:deep(.wrap) {
+    padding-bottom: 0;
+  }
+  .ReadySection:deep(.wrap) {
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 

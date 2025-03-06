@@ -54,9 +54,5 @@ p {
     justify-content: left;
     padding-left: 150px;
   }
-  /* 
-  .SectionTitle:deep(h2) {
-    left: 60%;
-  } */
 }
 </style>
