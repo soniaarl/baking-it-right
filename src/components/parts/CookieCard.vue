@@ -89,14 +89,6 @@ img {
   animation: float 2s infinite;
 }
 
-.shake:hover {
-  animation: shake 0.7s ease infinite;
-}
-
-.shake:focus {
-  animation: none;
-}
-
 .animate {
   animation: eat 0.5s ease;
 }
@@ -123,6 +115,12 @@ img {
     left: 50%;
     font-size: 32px;
     transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 1000px) {
+  .shake:hover {
+    animation: shake 0.7s ease infinite;
   }
 }
 
