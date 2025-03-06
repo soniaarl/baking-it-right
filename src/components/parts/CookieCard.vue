@@ -93,6 +93,10 @@ img {
   animation: shake 0.7s ease infinite;
 }
 
+.shake:focus {
+  animation: none;
+}
+
 .animate {
   animation: eat 0.5s ease;
 }
