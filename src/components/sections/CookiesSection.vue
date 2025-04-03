@@ -43,7 +43,8 @@ const cookies = [
     image: './cookies-images/pineapple.png',
     alt: 'Pineapple bun cookie',
     name: 'pineapple bun',
-    description: 'our base cookie recipe with a buttery, flaky cookie topping',
+    description:
+      "topped with a buttery, flaky layer that resembles a pineapple's skin but does not actually contain pineapple",
   },
   {
     image: './cookies-images/hojicha.png',
